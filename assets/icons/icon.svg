@@ -1,0 +1,18 @@
+<svg width="768" height="768" viewBox="0 0 768 768" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="768" height="768" rx="0" fill="#FF2D2D"/>
+  <g stroke="#fff" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Hashtag bubble -->
+    <rect x="96" y="96" width="280" height="200" rx="40"/>
+    <path d="M180 180h120M160 240h160M200 140l-40 160M280 140l-40 160"/>
+    <!-- Like bubble -->
+    <rect x="392" y="160" width="280" height="160" rx="40"/>
+    <path d="M520 220v-30a30 30 0 0 1 60 0v30m-30 0v40a30 30 0 0 0 30 30h0a30 30 0 0 0 30-30v-40"/>
+    <!-- Megaphone -->
+    <path d="M120 520a80 80 0 0 1 160 0v80a80 80 0 0 1-160 0v-80z"/>
+    <rect x="120" y="520" width="160" height="80" rx="40"/>
+    <!-- Play button -->
+    <polygon points="600,520 700,580 600,640" />
+    <!-- Megaphone sound lines -->
+    <path d="M280 560h40M280 600h40"/>
+  </g>
+</svg>

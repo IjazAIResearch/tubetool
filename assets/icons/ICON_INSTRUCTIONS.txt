@@ -1,0 +1,30 @@
+To complete the app icon setup:
+
+1. Create two PNG images with the following specifications:
+
+For app_icon.png (Main icon):
+- Size: 1024x1024 pixels
+- Format: PNG with transparency
+- Design: Modern "TT" monogram on a gradient background (#FF416C to #FF4B2B)
+- The icon should be clean, modern, and instantly recognizable
+- Save as: assets/icons/app_icon.png
+
+For app_icon_foreground.png (Android adaptive icon):
+- Size: 1024x1024 pixels
+- Format: PNG with transparency
+- Design: Same as main icon but without the background
+- Only the white "TT" monogram
+- Save as: assets/icons/app_icon_foreground.png
+
+2. After creating these images, run:
+   flutter pub get
+   flutter pub run flutter_launcher_icons
+
+This will generate all required icon sizes for Android and iOS platforms.
+
+Design suggestions:
+- Use a modern, geometric sans-serif font for the "TT"
+- Apply subtle shadows for depth
+- Keep the design minimal and clean
+- Use white for the letters to ensure good contrast
+- The gradient background should be vibrant but professional
